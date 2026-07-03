@@ -1,8 +1,8 @@
 { config, pkgs, lib, ... }:
 
 {
-  home.username = "debayan";
-  home.homeDirectory = "/Users/debayan";
+  home.username = "debayanbiswas";
+  home.homeDirectory = "/Users/debayanbiswas";
   home.stateVersion = "24.11";
 
   # Let home-manager manage itself.
@@ -20,7 +20,7 @@
     gh
     doppler
     btop
-    du-dust       # dust
+    dust          # du-dust (renamed)
     duf
     tealdeer      # tldr
     nano          # GNU nano (with syntax files)
@@ -39,16 +39,18 @@
 
   programs.git = {
     enable = true;
-    delta = {
-      enable = true;
-      options = {
-        navigate = true;
-        line-numbers = true;
-      };
-    };
-    extraConfig = {
+    settings = {
       core.editor = "nano";
       merge.conflictStyle = "zdiff3";
+    };
+  };
+
+  programs.delta = {
+    enable = true;
+    enableGitIntegration = true;
+    options = {
+      navigate = true;
+      line-numbers = true;
     };
   };
 
