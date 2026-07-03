@@ -57,7 +57,8 @@
   # Yazi — file manager, with the smart-enter plugin + our settings/keymap
   programs.yazi = {
     enable = true;
-    enableZshIntegration = true;   # provides the `y` shell wrapper (cd on quit)
+    enableZshIntegration = true;
+    shellWrapperName = "y";
     settings = {
       mgr = {
         show_hidden = false;
