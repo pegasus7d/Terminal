@@ -1,0 +1,10 @@
+# NEVER commit secrets or machine-local overrides
+.zshrc.local
+*.local
+.env
+*secret*
+*token*
+
+# Nix build artifacts
+result
+result-*

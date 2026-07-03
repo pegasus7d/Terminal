@@ -1,0 +1,20 @@
+# --- Syntax highlighting: load every bundled language definition ---
+include "/opt/homebrew/share/nano/*.nanorc"
+
+# --- IDE-like editor behavior ---
+set linenumbers        # line numbers down the left
+set mouse              # click to move cursor, scroll, select
+set softwrap           # wrap long lines instead of scrolling off-screen
+set tabsize 4          # tabs render as 4 spaces
+set autoindent         # keep indentation on new lines
+set constantshow       # always show line/column position
+set indicator          # scrollbar-like position indicator
+
+# --- Colors for the interface (IDE-ish) ---
+set titlecolor    brightwhite,blue
+set numbercolor   cyan
+set statuscolor   brightwhite,green
+set keycolor      brightcyan
+set functioncolor green
+set stripecolor   ,brightblack
+set selectedcolor brightwhite,magenta
