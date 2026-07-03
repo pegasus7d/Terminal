@@ -88,7 +88,7 @@
 
     oh-my-zsh = {
       enable = true;
-      plugins = [ "git" "web-search" "jsontools" "macos" ];
+      plugins = [ "git" "web-search" "jsontools" "macos" "brew" ];
     };
 
     shellAliases = {
