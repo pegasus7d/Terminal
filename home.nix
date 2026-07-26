@@ -99,6 +99,7 @@
       la = "eza -la --icons --group-directories-first --git";
       lt = "eza --tree --icons --level=2";
       cat = "bat";
+      cc = "claude";
     };
 
     sessionVariables = {
