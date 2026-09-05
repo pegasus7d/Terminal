@@ -100,6 +100,7 @@
       lt = "eza --tree --icons --level=2";
       cat = "bat";
       cc = "claude";
+      h = "herdr";
     };
 
     sessionVariables = {
