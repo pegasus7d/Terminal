@@ -5,3 +5,4 @@ cask "ghostty"                          # terminal emulator
 cask "font-jetbrains-mono-nerd-font"    # prompt/editor font (icons + ligatures)
 
 brew "scooter"                          # search & replace TUI
+brew "herdr"                            # agent multiplexer TUI (herdr.dev)
